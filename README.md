@@ -25,3 +25,4 @@ As for the **obstacles**, the equation is *obstacle = np.absolute(np.float32(nav
 
 As for the **rock**, since the rock appears yellow in the simulated environment, a *yellow_thresh = (110 < img[:,:,0]) & (img[:,:,0]< 220) & (110 < img[:,:,1]) & (img[:,:,1]< 220) & (0 < img[:,:,2]) & (img[:,:,2]< 50)* is used to filter out the rock samples.
 
+![navigable_terrain](image/navigable_terrain.png)
