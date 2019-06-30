@@ -19,7 +19,6 @@ This is a `README` that includes all the key points and how I addressed each one
 
 # 1 Notebook Analysis
 ## 1.1 Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-### 1.1.1 Color selection of obstacles and rock samples
 After several experiments, *rgb_thresh=(160, 160, 160)* is selected to be a suitable threshold for selecting **navigable terrain**.
 
 As for the **obstacles**, the equation is *obstacle = np.absolute(np.float32(navigable) - 1) * mask* where mask is the section of the image after perspective transformation.
