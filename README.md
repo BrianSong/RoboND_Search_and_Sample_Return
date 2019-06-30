@@ -2,9 +2,9 @@
 
 This project covers the implementation of all three essential elements of robotics: **Perception, Decision Making, and Actuation** for a **Mars Rover**'s autonomous navigation, mapping, collecting sample rocks and return to the original start point in a simulated environment.
 
-**Unity** are used for simulate the environment in this project and **Jupyter Notebook with Python** is choosed to write most of the code.
+**Unity** are used for simulating the environment in this project and **Jupyter Notebook with Python** is choosed to write most of the code.
 
-This is a README that includes all the key points and how I addressed each one.
+This is a `README` that includes all the key points and how I addressed each one.
 
 **Steps to complete the project:**  
 
