@@ -65,3 +65,20 @@ As for the mapping out video, please refer to `test_mapping.mp4`. One sample fra
 #### For more code details, please refer to `perception.py` and `decision.py`.
 
 ## 2.2 Launching in autonomous mode your rover can navigate and map autonomously. Explain your results and how you might improve them in your writeup.
+
+Simulator was running with the following settings and FPS:
+
+Parameter | Value
+--- | --- 
+Screen resolution | 1280 * 960
+Graphics quality | Fastest
+FPS	 | 25-30
+
+The result is relatively satifing and stable. Average performance for each run are shown below:
+Metric | Average value
+--- | --- 
+Mapped |	70-80
+Fidelity |	65-70
+Located |	4-6
+Collected |	3-6
+Time | 1000 s
