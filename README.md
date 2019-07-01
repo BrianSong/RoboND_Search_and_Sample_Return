@@ -37,5 +37,20 @@ The original input frame with its perspective transformation and results after t
 ![Combined](image/Combined.jpg)
 ![threshold_res](image/threshold_res.PNG)
 
+After getting the navigable terrain, the forward direction of the rover can be determined.
+
+![Getting_directions](image/Getting_directions.PNG)
+
 ## 1.2 Populate the process_image() function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap. Run process_image() on your test data using the moviepy functions provided to create video output of your result.
+
+Coordinates rotation, translation and scaling are used to transform the rover-centric map into world map as shown below. Details are shown in `perception.py`.
+
+![To_world_1](image/To_world_1.PNG)
+![To_world_1](image/To_world_2.PNG)
+
+As for the mapping out video, please refer to `test_mapping.mp4` .
+
+# 2 Autonomous Navigation and Mapping
+## 2.1 Fill in the perception_step() (at the bottom of the perception.py script) and decision_step() (in decision.py) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
+
 
