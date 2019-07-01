@@ -48,7 +48,9 @@ Coordinates rotation, translation and scaling are used to transform the rover-ce
 ![To_world_1](image/To_world_1.PNG)
 ![To_world_1](image/To_world_2.PNG)
 
-As for the mapping out video, please refer to `test_mapping.mp4` .
+As for the mapping out video, please refer to `test_mapping.mp4`. One sample frame of the output mapping video is shown below. The bule, red and yellow indicate navigable terrain, obstacles and rock accordingly.
+
+![Sample_output](image/Sample_output.png)
 
 # 2 Autonomous Navigation and Mapping
 ## 2.1 Fill in the perception_step() (at the bottom of the perception.py script) and decision_step() (in decision.py) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
