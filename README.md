@@ -19,15 +19,22 @@ This is a `README` that includes all the key points and how I addressed each one
 
 # 1 Notebook Analysis
 ## 1.1 Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
+
+The first step is to do a perspective transformation as shown below:
+![Perspective_Transformation](image/Perspective_Transformation.PNG)
+
 After several experiments, *rgb_thresh=(160, 160, 160)* is selected to be a suitable threshold for selecting **navigable terrain**.
 
 As for the **obstacles**, the equation is *obstacle = np.absolute(np.float32(navigable) - 1) * mask* where mask is the section of the image after perspective transformation as shown below:
 
-![Perspective_Transformation](image/Perspective_Transformation.PNG)
+![mask](image/mask.PNG)
 
 As for the **rock**, since the rock appears yellow in the simulated environment, a *yellow_thresh = (110 < img[:,:,0]) & (img[:,:,0]< 220) & (110 < img[:,:,1]) & (img[:,:,1]< 220) & (0 < img[:,:,2]) & (img[:,:,2]< 50)* is used to filter out the rock samples.
 
-![navigable_terrain](image/navigable_terrain.PNG)
+The original input frame and results after the thresholding (navigable_terrain, obstacles and rock) are shown below:
+
+![sample_with_rock](image/sample_rock.PNG)
+![threshold_res](image/threshold_res.PNG)
 
 ## 1.2 Populate the process_image() function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap. Run process_image() on your test data using the moviepy functions provided to create video output of your result.
 
