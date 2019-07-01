@@ -78,7 +78,7 @@ The result is relatively satifing and stable. Average performance for each run a
 
 Metric | Average value
 --- | --- 
-Mapped |	90-95
+Mapped | 95
 Fidelity |	65-70
 Located |	4-6
 Collected |	3-6
