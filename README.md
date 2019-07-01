@@ -72,7 +72,7 @@ Parameter | Value
 --- | --- 
 Screen resolution | 1280 * 960
 Graphics quality | Fastest
-FPS	 | 25-30
+FPS	 | 15-20
 
 The result is relatively satifing and stable. Average performance for each run are shown below:
 
