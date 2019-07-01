@@ -39,7 +39,7 @@ The original input frame with its perspective transformation and results after t
 
 After getting the navigable terrain, the forward direction of the rover can be determined.
 
-![Getting_directions](image/Getting_directions.PNG)
+![Getting_directions](image/Directions.PNG)
 
 ## 1.2 Populate the process_image() function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap. Run process_image() on your test data using the moviepy functions provided to create video output of your result.
 
