@@ -75,6 +75,7 @@ Graphics quality | Fastest
 FPS	 | 25-30
 
 The result is relatively satifing and stable. Average performance for each run are shown below:
+
 Metric | Average value
 --- | --- 
 Mapped |	70-80
