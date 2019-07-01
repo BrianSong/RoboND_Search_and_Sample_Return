@@ -22,7 +22,7 @@ This is a `README` that includes all the key points and how I addressed each one
 
 The first step is to do a perspective transformation as shown below:
 
-![Perspective_Transformation](image/Perspective_Transformation.PNG)
+![Perspective_Transformation_demo](image/Perspective_Transformation_demo.PNG)
 
 After several experiments, *rgb_thresh=(160, 160, 160)* is selected to be a suitable threshold for selecting **navigable terrain**.
 
