@@ -34,7 +34,7 @@ As for the **rock**, since the rock appears yellow in the simulated environment,
 
 The original input frame with its perspective transformation and results after the thresholding (navigable_terrain, obstacles and rock) are shown below (indicated by white pixels):
 
-![sample_with_rock](image/sample_rock.PNG) ![sample_with_rock_PT](image/sample_rock_PT.PNG)
+![Combined](image/Combined.PND)
 ![threshold_res](image/threshold_res.PNG)
 
 ## 1.2 Populate the process_image() function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap. Run process_image() on your test data using the moviepy functions provided to create video output of your result.
