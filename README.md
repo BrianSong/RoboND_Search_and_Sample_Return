@@ -78,8 +78,14 @@ The result is relatively satifing and stable. Average performance for each run a
 
 Metric | Average value
 --- | --- 
-Mapped |	70-80
+Mapped |	90-95
 Fidelity |	65-70
 Located |	4-6
 Collected |	3-6
 Time | 1000 s
+
+The % mapped cannot get be totally cover the map because at some points, the rover may stuck into some dead cycles. One way to optimize the % Mapped is to "close" some boundaries in the map will be followed up in the future.
+
+The travel time can be also optimized by allowing for a higher maximum velocity and give the rover's brain not to revisit previously mapped areas.
+
+Moreover, a better way to control the robot for example, the PID control will also be studied later.
