@@ -55,8 +55,9 @@ As for the mapping out video, please refer to `test_mapping.mp4`. One sample fra
 # 2 Autonomous Navigation and Mapping
 ## 2.1 Fill in the perception_step() (at the bottom of the perception.py script) and decision_step() (in decision.py) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
 
-Two modifications are introduced in perception_step():
+### Two modifications are introduced in perception_step():
 1. Optimizing Map Fidelity: Your perspective transform is technically only valid when roll and pitch angles are near zero. If you're slamming on the brakes or turning hard they can depart significantly from zero, and your transformed image will no longer be a valid map. Setting thresholds near zero in roll and pitch to determine which transformed images are valid for mapping. i.e. Adding one conditional statement : *if abs(Rover.pitch) < 1 and abs(Rover.roll) < 1:* To avoiding mapping when the rover is pitching or rolling heavily which can help to optimize map fidelity.
 2. Optimizing for Finding All Rocks Tip: The rocks always appear near the walls. Think about making your rover a "wall crawler" that explores the environment by always keeping a wall on its left or right. If done correctly, this optimization can help all the aforementioned metrics. i.e. Adding *Rover.nav_angles += 0.3*. But to remember reduce this 0.3 in the `decision.py` when determining the rover's forward direction.
 
+### As for decision_step():
 
