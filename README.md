@@ -1,6 +1,6 @@
-# *RoboND_Search_and_Sample_Return*
+# RoboND_Search_and_Sample_Return
 
-This project covers the implementation of all three essential elements of robotics: **Perception, Decision Making, and Actuation** for a **Mars Rover**'s autonomous navigation, mapping, collecting sample rocks and return to the original start point in a simulated environment.
+*This project covers the implementation of all three essential elements of robotics: **Perception, Decision Making, and Actuation** for a **Mars Rover**'s autonomous navigation, mapping, collecting sample rocks and return to the original start point in a simulated environment.*
 
 **Unity** are used for simulating the environment in this project and **Jupyter Notebook with Python** is choosed to write most of the code.
 
