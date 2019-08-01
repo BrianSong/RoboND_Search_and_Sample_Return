@@ -1,4 +1,4 @@
-# RoboND_Search_and_Sample_Return
+# Search_and_Sample_Return
 
 *This project covers the implementation of all three essential elements of robotics: **Perception, Decision Making, and Actuation** for a **Mars Rover**'s autonomous navigation, mapping, collecting sample rocks and return to the original start point in a simulated environment.*
 
